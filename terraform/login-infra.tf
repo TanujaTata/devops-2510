@@ -39,7 +39,7 @@ resource "azurerm_subnet" "login-db-subnet" {
 }
 
 # web-pub-ip
-resource "azurerm_public_ip" "login-web-pip"
+resource "azurerm_public_ip" "login-web-pip" {
   name                = "login-web-pip"
   resource_group_name = azurerm_resource_group.login-rg.name
     location            = azurerm_resource_group.login-rg.location
