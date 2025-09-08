@@ -70,7 +70,7 @@ resource "azurerm_network_security_group" "login-web-nsg" {
 }
 
 # web-nsg-ssh
-security_rule {
+resource "azurerm_network_security_rule" "login-web-nsg-ssh" {
     name                       = "login-web-nsg-ssh"
     priority                   = 100
     direction                  = "Inbound"
