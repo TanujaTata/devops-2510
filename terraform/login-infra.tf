@@ -51,7 +51,7 @@ resource "azurerm_public_ip" "login-web-pip" {
 }
 
 # API-pub-ip
-resource "azurerm_public_ip" "login-API-pip"
+resource "azurerm_public_ip" "login-API-pip"  {
   name                = "login-API-pip"
   resource_group_name = azurerm_resource_group.login-rg.name
     location            = azurerm_resource_group.login-rg.location
