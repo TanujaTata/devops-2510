@@ -80,8 +80,8 @@ resource "azurerm_network_security_rule" "login-web-nsg-ssh" {
     destination_port_range     = "22"
     source_address_prefix      = "*"
     destination_address_prefix = "*"
+  location            = azurerm_resource_group.login-rg.location
+  resource_group_name = azurerm_resource_group.login-rg.name
   }
 
-  tags = {
-    environment = "Production"
-  }
+  
