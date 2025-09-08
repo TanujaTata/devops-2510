@@ -81,7 +81,7 @@ resource "azurerm_network_security_rule" "login-web-nsg-ssh" {
     source_address_prefix      = "*"
     destination_address_prefix = "*"
    resource_group_name = azurerm_resource_group.login-rg.name
-  network_security_group_name = azurerm_network_security_group.login-rg.name
+   network_security_group_name = azurerm_network_security_group.login-web-nsg.name
   }
 
   
