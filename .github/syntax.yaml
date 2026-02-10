@@ -2,7 +2,7 @@ key: value
 name: Tanu
 city: Chemnitz
 
-
+#Dictionary
 apple:
   colour: red
   size: medium
@@ -11,7 +11,8 @@ apple:
 tanu:
   colour: fair
   height: 5ft
-  
+
+# list/arrays  
 courses:
 -aws
 -azure
