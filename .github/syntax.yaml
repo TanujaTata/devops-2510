@@ -1,0 +1,20 @@
+key: value
+name: Tanu
+city: Chemnitz
+
+#Dictionary
+apple:
+  colour: red
+  size: medium
+  weight: 100gms
+
+tanu:
+  colour: fair
+  height: 5ft
+
+# list/arrays  
+courses:
+-aws
+-azure
+-devops
+
